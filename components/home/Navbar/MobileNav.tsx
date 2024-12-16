@@ -14,7 +14,7 @@ export const MobileNav = ({ closeNav, showNav }: Props) => {
     <div>
       {/* overlay */}
       <div className={` ${navOpen} transform fixed transition-all duration-500 inset-0 z-[1000] bg-black opacity-70 w-full h-screen`}>
-
+      </div>
         {/* nav links */}
         <div className={` ${navOpen} text-white transform transition-all duration-500 delay-300 fixed flex justify-center flex-col h-full w-[80%] sm:w-[60%] bg-[#c1205e] space-y-6 z-[10000]`}>
           {navLinks.map((nav) => {
@@ -28,7 +28,7 @@ export const MobileNav = ({ closeNav, showNav }: Props) => {
           <CgClose onClick={closeNav} className='absolute top-[0.7rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6 text-white' />
         </div>
 
-      </div>
+     
     </div>
   )
 }

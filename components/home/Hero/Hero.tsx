@@ -23,7 +23,7 @@ export const Hero = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                     className='mt-4 text-center text-sm sm:text-base text-gray-200'>
-                    We'vre more than 745.000 appartments, place & plot.
+                    We have more than 745.000 appartments, place & plot
                 </p>
                 <div
                  data-aos="zoom-in"
